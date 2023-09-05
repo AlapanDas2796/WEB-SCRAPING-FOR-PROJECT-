@@ -1,0 +1,6 @@
+from autoscraper import AutoScraper
+UrlToScrap="https://ieg.worldbankgroup.org/data"
+WantedList=["WB Project Ratings and Lessons"]
+InfoScraper = AutoScraper()
+result=InfoScraper.build(UrlToScrap,WantedList)
+print(result)
